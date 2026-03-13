@@ -1,4 +1,4 @@
-# Maverick Bank – Full Stack Digital Banking System
+# Full Stack Digital Banking System
 
 A production-style **full-stack digital banking platform** built with **Spring Boot, MySQL, and Angular/React frontend**.
 The system simulates real banking operations such as account management, transactions, loan processing, and beneficiary management.
