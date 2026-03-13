@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This is a secure Spring Boot backend for Maverick Bank. Use Java 17+, Spring Boot, Spring Security, JPA, and Maven. MySQL database is 'MaverickBank'. Implement JWT authentication, REST APIs for account management, transaction handling, loan processing, beneficiary management, and reporting. Role-based access for CUSTOMER, EMPLOYEE, and ADMIN. Enable Swagger UI for API testing. No frontend code.
