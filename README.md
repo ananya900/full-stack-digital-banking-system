@@ -1,73 +1,66 @@
 # Full Stack Digital Banking System
 
-A production-style **full-stack digital banking platform** built with **Spring Boot, MySQL, and Angular/React frontend**.
-The system simulates real banking operations such as account management, transactions, loan processing, and beneficiary management.
+A production-style full-stack digital banking platform built using Spring Boot, MySQL, and React.
+The system simulates real-world banking operations such as account management, transactions, loan processing, and beneficiary management.
 
 ---
 
 ## Tech Stack
 
-**Backend**
+Backend
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- Maven
+- MySQL
+- Swagger OpenAPI
 
-* Java 17
-* Spring Boot
-* Spring Data JPA
-* Hibernate
-* Maven
-* MySQL
-* Swagger OpenAPI
+Frontend
+- React
+- Bootstrap / Material UI
+- TypeScript / JavaScript
+- REST API Integration
 
-**Frontend**
-
-* Angular (recommended) or React
-* Angular Material / Bootstrap
-* TypeScript
-* REST API integration
-
-**Tools**
-
-* Git & GitHub
-* Postman
-* Swagger UI
-* Docker (optional)
+Tools
+- Git & GitHub
+- Postman
+- Swagger UI
+- Docker (optional)
 
 ---
 
 ## Core Features
 
-### Customer
+Customer
+- Register / Login
+- Open bank accounts
+- Deposit, withdraw, and transfer funds
+- View transaction history
+- Add beneficiaries
+- Apply for loans
 
-* Register / Login
-* Open Bank Accounts
-* Deposit / Withdraw / Transfer funds
-* View Transaction History
-* Add Beneficiaries
-* Apply for Loans
+Employee
+- Review transactions
+- Approve or reject loan applications
+- Monitor customer accounts
 
-### Employee
-
-* Review transactions
-* Approve or reject loan applications
-* Monitor accounts
-
-### Admin
-
-* Manage users
-* Manage employees
-* System reporting
+Admin
+- Manage users and employees
+- Generate system reports
 
 ---
 
 ## System Architecture
 
-Frontend (Angular / React)
-⬇
+Frontend (React)
+↓
 Spring Boot REST API
-⬇
+↓
 Service Layer
-⬇
+↓
 Repository Layer (JPA)
-⬇
+↓
 MySQL Database
 
 ---
@@ -75,56 +68,34 @@ MySQL Database
 ## API Documentation
 
 Swagger UI available at:
-
-```
 http://localhost:9090/swagger-ui.html
-```
 
 Base API URL:
-
-```
 http://localhost:9090
-```
 
 ---
 
 ## Running the Backend
 
 1. Clone repository
-
-```
 git clone https://github.com/ananya900/full-stack-digital-banking-system.git
-```
 
 2. Configure database in:
-
-```
 src/main/resources/application.properties
-```
 
 3. Build project
-
-```
 mvn clean install
-```
 
 4. Run application
-
-```
 mvn spring-boot:run
-```
 
 Backend will start at:
-
-```
 http://localhost:9090
-```
 
 ---
 
 ## Project Structure
 
-```
 full-stack-digital-banking-system
 │
 ├── backend
@@ -138,12 +109,11 @@ full-stack-digital-banking-system
 │   └── react-app
 │
 └── docs
-```
 
 ---
 
 ## Author
 
-**Ananya G N**
+Ananya G N
 Information Science Engineering Student
-Focused on **Backend Development, Java, and Full Stack Systems**
+Focused on Backend Development, Java, and Full Stack Systems
